@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+	#!/usr/bin/env bash
 set -e
 
 
@@ -29,3 +29,6 @@ pwd
 echo "--end of bash script--"
 echo "executing python.py"
 ./python.py
+
+current_branch="$(git branch | grep \* | awk '{print $2}')"
+echo "your current branch is $current_branch"
