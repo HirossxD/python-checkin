@@ -1,0 +1,65 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+geoclue:x:997:995:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:996:992:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+libstoragemgmt:x:995:989:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+unbound:x:994:988:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+gluster:x:993:987:GlusterFS daemons:/run/gluster:/sbin/nologin
+chrony:x:992:986::/var/lib/chrony:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+setroubleshoot:x:991:984::/var/lib/setroubleshoot:/sbin/nologin
+saslauth:x:990:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+dnsmasq:x:983:983:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+sssd:x:982:982:User for sssd:/:/sbin/nologin
+clevis:x:981:981:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+cockpit-ws:x:980:979:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:979:978:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+flatpak:x:978:977:User for flatpak system helper:/:/sbin/nologin
+colord:x:977:976:User for colord:/var/lib/colord:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:976:975::/run/gnome-initial-setup/:/sbin/nologin
+pesign:x:975:974:Group for the pesign signing daemon:/var/run/pesign:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rngd:x:974:973:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+student:x:1000:1000::/home/student:/bin/bash
+tester:x:1001:1001::/home/tester:/bin/bash
+alice:x:1002:1002::/home/alice:/bin/bash
+malice:x:1003:1003::/home/malice:/bin/bash
+user:x:1004:1005::/home/user:/bin/bash
+kammolna:x:1005:1006::/home/kammolna:/bin/bash
+mpapaj:x:1006:1007::/home/mpapaj:/bin/bash
+sesojka:x:1007:1008::/home/sesojka:/bin/bash
+msokolak:x:1008:1009::/home/msokolak:/bin/bash
+lsopolig:x:1009:1010::/home/lsopolig:/bin/bash
+lszeles:x:1010:1011::/home/lszeles:/bin/bash
+adsulak:x:1011:1012::/home/adsulak:/bin/bash
+tatothov:x:1012:1013::/home/tatothov:/bin/bash
+frturcik:x:1013:1014::/home/frturcik:/bin/bash
+denvarga:x:1014:1015::/home/denvarga:/bin/bash
+alevarga:x:1015:1016::/home/alevarga:/bin/bash
+bvranko:x:1016:1017::/home/bvranko:/bin/bash
+mzudel:x:1017:1018::/home/mzudel:/bin/bash
