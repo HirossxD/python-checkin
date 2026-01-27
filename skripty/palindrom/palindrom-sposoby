@@ -1,0 +1,24 @@
+Ako zistime ci je slovo palindrom ?
+
+1. rozdelim slovo na polovicu, druhu otocim, a porovnam
+
+
+2. porovnavam slovo po jednom pisneme
+  
+
+3. vytvorim kopiu slova, otocim ju a porovnam
+
+
+
+
+KRITERIA CO JE NAJLEPSIE?
+
+zalezi co pre mna zname najlepsie
+1. vypoctovy vykon / resources
+	- co najmenej computingu (CPU, execution time)
+        - co najmenej riadkov (MEM)
+
+2. pochopitelnost kodu, programmer-friendly
+        - kod, ktory bude najzrozumitelnejsi
+	- ak sa menia programatory
+        - ak projekt robi vela ludi
